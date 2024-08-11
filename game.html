@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tebak kartu</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Menebak Kartu</h1>
+        <p>Pilih salah satu kartu dan coba tebak!</p>
+        <div class="card-container">
+            <div class="card" onclick="checkCard(1)"></div>
+            <div class="card" onclick="checkCard(2)"></div>
+            <div class="card" onclick="checkCard(3)"></div>
+        </div>
+        <p id="resultMessage"></p>
+        <button onclick="resetGame()">Main Lagi</button>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
